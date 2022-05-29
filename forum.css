@@ -1,0 +1,251 @@
+body{font-family: 'Inter', sans-serif; font-size:16px;
+ text-align: center;
+}
+
+.bigtext{font-size:70px; font-weight:900;}
+.mediumtext{font-size:40px;}
+.normaltext{font-size:20px;}
+.smalltext{font-size:14px;}
+
+
+p,ul{
+    line-height: 28px;
+    color:#666;
+    font-weight: 300;
+
+}
+
+a{text-decoration: none;
+color: #fff;}
+
+.siti{text-decoration: underline;
+    color: #fff;}
+nav{
+z-index: 4;   
+display:flex;
+ width:100%;
+ padding-top:20px;
+    position: absolute;
+    top:0;
+    left:0;
+align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+.logo {
+    
+   width: 200px;
+   height: 200px;
+ 
+
+    
+}
+
+
+
+
+.menu div{
+    display: inline-block; 
+     border-radius:30px;
+    border: 3px solid #fff;
+    
+}
+
+.menu div a{
+    color:#fff;
+    padding: 20px;
+    display:block;
+}
+
+.video{
+    position: relative;
+    height:100vh;
+  
+    display:flex;
+    width:100%;
+    align-items: center;  
+    
+    background-size: cover;
+    overflow: hidden;
+   
+}
+
+.video__content{
+    z-index: 1;
+    width:100%;
+    max-width: 1350px;
+    margin:0 auto;
+    position: relative;
+}
+
+.video__content h1{
+color:#fff;
+text-align: center;
+
+}
+    
+   .video:after{
+content: ' ';
+width: 100%;
+height: 100%;
+display: block;
+position: absolute;
+top:0;
+left:0;
+background: #000;
+opacity: 0.5;
+
+   } 
+#myvideo{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+}   
+
+textarea{
+margin-top:50px;
+    width: 1000px;
+    height: 200px;
+}
+
+.a_login{
+    color:black;
+    border:3px solid black;
+    padding:10px;
+    border-radius:30px;
+}
+
+
+.div_form {
+    margin-top:10%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.div_form p{
+    border:3px solid #666;
+    padding:50px;
+    text-align: left;
+    
+    }
+
+
+    #elimina_commento{
+        font-size:14px;
+        
+    }
+
+
+
+    @media(max-width:868px){
+      
+    
+        nav{border:4px solid red;
+        
+        height:100%;}
+                      .menu{
+                         
+                          height: 100%;
+                          display: flex;
+                          flex-direction: column;
+                        
+                      }
+                    
+                    .logo {
+                        
+                       width: 150px;
+                       height: 150px;
+                     
+                    
+         
+                    }
+                    
+                    
+                    .blocco2{
+                        
+                      
+                 width:100%;
+                 height: 200vh;
+                background-position: left;
+             
+                    
+                    }
+        
+        
+                    .menu div a{
+                        font-size:15px;
+                       display: inline;
+                      
+                      
+                      
+                    }
+                 
+                    
+                    .video{
+                       
+                    height: 50%;
+                    width: 100%;
+                      
+                       
+                    }
+                    
+                    
+                        
+                    
+                    .video__content h1{
+                   
+                    
+                    font-size:30px;
+        display:none;
+                    
+                    
+                    }
+                        
+                      
+                       
+                    #myvideo{
+                       width: auto;
+                       height: 100%;
+                    }   
+                    
+        
+        
+                    .contenuto__2{
+                        text-align: center;
+                        width: 100%;
+                    }
+                    
+                    .contenuto__2 p,.contenuto__2 h4{
+                        
+                        text-align: center;
+                        color:#fff;
+                        padding:10px;
+                        
+                      
+                      }
+                    
+                      .titolo2{
+                            width: 0%;
+                            
+                      }
+                      .main-carousel{
+                          text-align: center;
+                      }
+                     .fucili,.pistole,.regole,.abbigliamento,.contatti{
+            
+            
+            width: 450px;
+            height: 450px;
+            
+            
+            text-align: center;
+            
+          
+        
+        
+        }
+                    }
